@@ -1,0 +1,181 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.carousel_wrap{
+    margin:0px;
+    padding:0px;
+}
+.nav-link{
+    font-weight: 700;
+}
+
+.navbar-brand img{
+    width:60px;
+    margin-left:20%;
+}
+.navbar-nav{
+    margin-right: 20%;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: auto;
+}
+.carousel-caption{
+    text-align: left;
+    top:10%;
+    left:10%;
+    width: 50%;
+}
+.second_carousel{
+    text-align: left;
+    top:30%;
+    left:40%;
+    width: 50%;
+}
+.carousel-caption h2{
+    color:#FFB258;
+    font-weight: 700;
+    font-size:40px;
+}
+.carousel-caption p{
+    color:#10181a;
+}
+.carousel_btn{
+    color:#fff;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #E38B94, #D4568B);
+    border:none;
+    transition:0.3s all ease-in-out;
+}
+.carousel_btn:hover{
+    color:#fff;
+    background-image: linear-gradient(to top, #E38B94, #D4568B);
+    box-shadow: 3px 3px 30px #252c3a;
+}
+
+.department_area{
+    margin-top:20px;
+    margin-bottom: 80px;
+}
+.online_education, .library, .research{
+    height: 430px;
+    width:30%;
+    margin-left:3%;
+    border-radius: 10px;
+    color:#fff;
+    transition: 0.5s all ease-in;
+}
+.online_education{
+    background-color: #F9703A;
+}
+.library{
+    background-color: #80BE41;
+}
+.research{
+    background-color: #FFB157;
+}
+.online_education:hover, .library:hover, .research:hover{
+    box-shadow: 10px 10px 30px gray;
+}
+.department_area{
+    background-image: url(../images/video-bg-shape.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size:500px;
+}
+.video_section{
+    margin:100px 0px;
+}
+.video img{
+    width: 70%;
+    margin-left:15%;
+}
+.analyst{
+    margin-top:70px;
+}
+.video_section>.text{
+    text-align:left;
+}
+.video_section>.text h2{
+    font-weight: 700;
+}
+.student h1{
+    color:#FFBA00;
+    line-height: 0.5;
+    font-weight: 700;
+}
+.hours h1{
+    color:#FF5F72;
+    line-height: 0.5;
+    font-weight: 700;
+}
+.course h1{
+    color:#43CB83;
+    line-height: 0.5;
+    font-weight: 700;
+}
+.around_section{
+    margin:80px 0px;
+    background-image: url(../images/around-the-versity.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.blog_wrap{
+    margin-bottom: 30px;
+}
+.blog{
+    box-shadow:5px 5px 20px #EFEFF3;
+    margin:0px 10px;
+    width: 23%;
+    border-radius: 5px;
+    padding:0px;
+    padding-bottom:20px;
+    position: relative;
+}
+.blog h4{
+    font-size:20px;
+    margin:10px;
+}
+.blog h5{
+    font-size:16px;
+    margin-left:10px;
+    margin-bottom: 30px;
+}
+.blog a{
+    margin-left:10px;
+    color:#FF7A00;
+    text-decoration: none;
+    position:absolute;
+    bottom:10px;
+}
+.blog img{
+    width: 100%;
+}
+.footer_main{
+    background-color: #252c3a;
+    padding:30px 0px;
+    color:#fff;
+}
+.footer_main img, h4{
+    margin-bottom: 20px;
+}
+.footer_main i{
+    margin-right: 20px;
+    transition: 0.5s all ease-in-out;
+}
+.footer_main ul{
+    padding-left:0px;
+}
+.footer_main li{
+    list-style-type:none;
+    transition: 0.5s all ease-in-out;
+}
+.footer_main li:hover, i:hover{
+    margin-left:5px;
+    cursor: pointer;
+}
+.footer_main span{
+    color:#969595;
+}
